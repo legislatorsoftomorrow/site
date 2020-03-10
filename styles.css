@@ -313,20 +313,20 @@ PAST PROJECTS SECTION #EEEEEE
 }
 
 .img1 {
-	background: url("virginia_assembly.png") no-repeat center center;
+	background: url("./images/virginia_assembly.png") no-repeat center center;
 }
 
 .img2 {
-	background: url("drafting.png") no-repeat center center;
+	background: url("./images/drafting.png") no-repeat center center;
 }
 
 
 .img5 {
-	background: url("lobbying.png") no-repeat center center;
+	background: url("./images/lobbying.png") no-repeat center center;
 }
 
 .img6 {
-	background: url("repro_healthcare.png") no-repeat center center;
+	background: url("./images/repro_healthcare.png") no-repeat center center;
 }
 
 .link1 , .link2 , .link3 , .link4 , .link5 , .link6 {

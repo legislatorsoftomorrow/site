@@ -40,7 +40,9 @@ HERO PAGE
 }
   
   
-
+html {
+	scroll-behavior: smooth;
+}
   
 
 

@@ -16,11 +16,11 @@ Simply replace the “https://website.com”  with the desired URL.
 
 the following is from workshop.html
 
-ex : - <h3 align="left">All are Welcome! Wednesday 6:30-7:30 PM at Monroe 118 &nbsp; </h3>-
+ex : h3 align="left">All are Welcome! Wednesday 6:30-7:30 PM at Monroe 118 &nbsp; </h3
 
 the to change date just do this:
 
-ex : -<h3 align="left">Come Visit Us! Monday 5:30-6:30 PM at Rice 118 &nbsp; </h3>-
+ex : h3 align="left">Come Visit Us! Monday 5:30-6:30 PM at Rice 118 &nbsp; </h3
 
 make sure you keep all the syntax and characters as they are.
 <br> = new line

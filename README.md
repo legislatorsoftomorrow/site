@@ -22,7 +22,7 @@ the to change date just do this:
 
 ex : h3 align="left">Come Visit Us! Monday 5:30-6:30 PM at Rice 118 &nbsp; </h3
 
-* make sure you use add < infront of the above code (could not in this file or it would be funny), e.g. <h3 align="left"> ...... <h/3>
+* make sure you use add < infront of the above code (could not in this file or it would be funny), e.g. <h3 ...> ...... <h/3>
 
 make sure you keep all the syntax and characters as they are.
 <br> = new line

@@ -1,0 +1,260 @@
+<!—Created by Andrew Zhang -->
+<!DOCTYPE HTML>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>Legislators of Tomorrow at UVA</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html#about">About Us</a>
+  <a href="./Resources.html">Legislative Resources</a>
+  <a href="./workshop.html">Workshop</a>
+  <a href="./bills.html">Bills</a>
+  <a href="./leadership.html">Our Leadership</a>
+	<a href="./patrons.html">Patrons</a>
+  <a href="https://uva.campuslabs.com/engage/organization/legislatorsoftomorrow/contact">Contact Us</a>
+		<a href="https://www.facebook.com/LegislatorsofTomorrow/">
+         	<img src="./images/facebook.png" 
+         	width=25" height="25">
+      		</a>
+		<a href="https://twitter.com/LOT_UVA">
+         	<img src="./images/twitter.png" 
+         	width=25" height="25">
+      		</a>
+		<a href="https://www.instagram.com/legislators_of_tomorrow/?hl=en">
+         	<img   src="./images/instagram.png" 
+         	width=25" height="25">
+      		</a>
+  	
+	
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+</head>
+	   <head>
+		<style>
+			.gap-10 {
+				width:100%;
+				height:10px;
+			}
+			.gap-20 {
+				width:100%;
+				height:20px;
+			}
+			.gap-30 {
+				width:100%;
+				height:30px;
+			}
+		</style>
+	</head>
+<body>
+	
+
+	
+	
+	<script>$(function(){  // $(document).ready shorthand
+  $('.intro').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.about-me').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});</script>
+
+	
+
+	<div class="hero-image">
+	<div class="intro">
+		<div class="gap-30"></div>
+		<div class="gap-30"></div>
+		<div class="gap-30"></div>
+				   <div class="gap-30"></div>
+		<h1 align="left">Want to get involved?</h1>
+		<h3 align="left"> Every Wednesday, Monroe 118 from 6:30-7:30 pm &nbsp; </h3>
+		
+		<script> function slideDown() {
+			$('html, body').animate({scrollTop:650}, 'slow');
+		}</script>
+		<img src="./images/white-arrow.png" class="down-arrow" onclick="slideDown()">
+	</div> <!-- intro -->
+	</div> <!-- hero-image -->
+<center><img src="./images/workshop.jpg" alt="workshop" style="width:50%;"></center>
+
+
+</html>
+</body>
+<br>
+<footer><center> &copy; Legislators of Tomorrow at UVA: Copyright 2020-2021</center> </footer>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
+

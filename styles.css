@@ -2,6 +2,12 @@
 HERO PAGE <!—Created by Andrew Zhang -->
 ----------------------------------------*/
 
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
 .hero-image { 
   background: 
   	linear-gradient(

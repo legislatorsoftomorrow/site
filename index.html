@@ -153,7 +153,17 @@ $(document).ready(function() {
 	  	
 	  	
 </div>
-		
+</style>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>		
 		
 	
 </html>
@@ -285,17 +295,7 @@ body {
 
 
 
-</style>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+
 
 <p><center> &copy; Legislators of Tomorrow at UVA: Copyright 2020-2021</center> </p>
 

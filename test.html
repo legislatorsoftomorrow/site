@@ -1,29 +1,36 @@
 <!—Created by Andrew Zhang -->
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Legislators of Tomorrow at UVA</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+		<style>
+			.gap-10 {
+				width:100%;
+				height:10px;
+			}
+			.gap-20 {
+				width:100%;
+				height:20px;
+			}
+			.gap-30 {
+				width:100%;
+				height:30px;
+			}
+		</style>
 	
-	
-		
 <style>
-.gap-10 {
-	width:100%;
-	height:10px;
-		}
-.gap-20 {
-	width:100%;
-	height:20px;
-		}
-.gap-30 {
-	width:100%;
-	height:30px;
-		}
 body {margin:0;font-family:Arial}
 
 .topnav {
@@ -129,60 +136,87 @@ body {margin:0;font-family:Arial}
   }
 }
 </style>
-</head>
-<body>
-
-<div class="topnav" id="myTopnav">
-<a href="https://lotuva.org/">
-         	<img src="./images/homeb.png" 
-         	width=25" height="25">
-      		</a>
-  <a href="index.html#about">About Us</a>
-  <a href="./Resources.html">Legislative Resources</a>
-  <a href="./workshop.html">Workshop</a>
-	<a href="./bills.html">Our Bills</a>
-  <a href="./leadership.html">LoT Leadership</a>
-	<a href="./patrons.html">Patrons</a>
-				
-<div class="dropdown">
-    <button class="dropbtn">LoT Leadership
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="./leadership.html">Current Officers</a>
-     
-    </div>
-  </div>			
-				
-				
-				
-  <a href="https://uva.campuslabs.com/engage/organization/legislatorsoftomorrow/contact">Contact Us</a>
-		<a href="https://www.facebook.com/LegislatorsofTomorrow/">
-         	<img src="./images/facebook.png" 
-         	width=25" height="25">
-      		</a>
-		<a href="https://twitter.com/LOT_UVA">
-         	<img src="./images/twitter.png" 
-         	width=25" height="25">
-      		</a>
-		<a href="https://www.instagram.com/legislators_of_tomorrow/?hl=en">
-         	<img   src="./images/instagram.png" 
-         	width=25" height="25">
-      		</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-
-<div style="padding-left:16px">
-  <h2>Responsive Topnav with Dropdown</h2>
-  <p>Resize the browser window to see how it works.</p>
-  <p>Hover over the dropdown button to open the dropdown menu.</p>
-</div>
 	
-<body> 	
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">	
-<div class="card border-dark mb-3"  style="max-width: 50rem;">
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
+	
+
+	
+	
+	<script>$(function(){  // $(document).ready shorthand
+  $('.intro').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.about-me').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});</script>
+
+		
+	
+
+	<div class="hero-image">
+	
+	<div class="intro">
+		<div class="gap-30"></div>
+		<div class="gap-30"></div>
+		<h3 align="left">Welcome to</h3>
+		<div class="gap-20"></div>
+		<h1 align="left" >Legislators of Tomorrow at UVA!</h1>
+		
+	
+		<script> function slideDown() {
+			$('html, body').animate({scrollTop:650}, 'slow');
+		}</script>
+		<img src="./images/white-arrow.png" class="down-arrow" onclick="slideDown()">
+	</div> <!-- intro -->
+	</div> <!-- hero-image -->
+       <div id='about'><a name='about'></a></div>
+	<div class="gap-30"></div>
+	<div class="gap-30"></div>
+		
+			
+	
+	<div class="card border-dark mb-3"  style="max-width: 50rem;">
   <div class="card-header-center">
 	  <h1><center><b>About Us</b></center></h1>
   </div>
@@ -193,9 +227,11 @@ body {margin:0;font-family:Arial}
     		<p class="card-text"><b>Our Primary Mission:</b> <br> <b> 1) </b>Educate members about the Virginia legislature <br> <b> 2) </b> Educate the wider UVA community about the Virginia legal code and bills in session <br> <b> 3) </b>Discuss bipartisan policy goals (education policy, criminal justice reform, public health policy, mental health policy, etc.) <br> <b> 4) </b> Advocate for legislation that benefits students at the primary, secondary, and tertiary level <br> <b> 5) </b> Draft and Lobby for Legislation.<br><br> <b>Our Secondary goal:</b> <br> Get more involved in policy making and politics on the local level, especially in Charlottesville. </p>
 	    <center><a href="./workshop.html" class="btn btn-primary">Interested in Joining?</a></center>
 	  </div>
-	 <img class="card-img-bottom" src="./images/LOT_Sticker_final2-removebg.png" alt="Card image cap">	  	
+	 <img class="card-img-bottom" src="./images/LOT_Sticker_final2-removebg.png" alt="Card image cap">
+	  	
+	  	
 </div>
-</body> 
+</style>
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -205,7 +241,20 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-</script>
+</script>		
+		
+	
+</html>
+</body>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+<p><center> &copy; Legislators of Tomorrow at UVA: Copyright 2020-2021</center> </p>
 
 </body>
 </html>
